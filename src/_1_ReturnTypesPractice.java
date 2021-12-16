@@ -1,6 +1,8 @@
-
-
-public class ReturnTypesPractice {
+/*
+ * We can tell what a method returns by looking at its return type
+ * The return type is always to the left of the method name
+ */
+public class _1_ReturnTypesPractice {
 	public static void main(String[] args) {
 		// GOAL: Figure out what each of these hidden methods returns
 		// 1. Call each method

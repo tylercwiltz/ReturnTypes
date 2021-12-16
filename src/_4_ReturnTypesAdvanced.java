@@ -6,9 +6,9 @@ import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
 
-public class ReturnTypesAdvanced {
+public class _4_ReturnTypesAdvanced {
 	static Robot rob = new Robot();
-	
+
 	public static void main(String[] args) {
 		//1. Ask the user how many sides they want their shape to be
 		String strNum = JOptionPane.showInputDialog("Sides?");

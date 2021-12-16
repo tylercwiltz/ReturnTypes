@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
 
-public class ReturnTypesRobot {
+public class _2_ReturnTypesRobot {
 	static Robot rob = new Robot("mini");
 	static int totalDistance;
 	
@@ -15,9 +15,9 @@ public class ReturnTypesRobot {
 		crazyMove();
 		//2. Call the getTotalDistance() to get the distance the robot moved
 		int distance = getTotalDistance();
-		//3. If the distance is greater than 500
+		//3. If the distance moved is greater than 500
 		if(distance > 500) {	
-			//4. Tell the user "Wow! That's really far!"
+			//4. Use a pop up to say "Wow! That's really far!"
 			JOptionPane.showMessageDialog(null, "Wow! That's really far!");
 		}
 		//5. Else use a pop up to say "Better luck next time."
